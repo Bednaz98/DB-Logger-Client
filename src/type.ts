@@ -12,12 +12,12 @@ export interface ClientLoggerConfig {
     sessionID: string
     appName: string
     environment: string
+    loggingEndPoint: string
     osVersion?: string
     deviceType?: string
     user?: string
     appVersion?: string
-    defaultTags?: string
-    loggingEndPoint: string
+    defaultTags?: string[]
     sendThreshHold?: number
     sendLogsType?: LogType[]
     print?: boolean | LogType[]
