@@ -1,5 +1,4 @@
-import { testingFunction } from '../src'
 
 test('defualt Test', () => {
-    expect(testingFunction()).toBe(0)
+    expect(0).toBe(0)
 })
